@@ -1,0 +1,25 @@
+{
+  "name": "eze/algos-php",
+  "description": "Algoritmos en PHP",
+  "type": "library",
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Algoritmos\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Algoritmos\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "eze",
+      "email": "91556738+dEzequiel@users.noreply.github.com"
+    }
+  ],
+  "require": {}
+}
